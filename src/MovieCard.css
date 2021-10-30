@@ -1,0 +1,38 @@
+.card {
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card:hover {
+    height: 750px;
+    overflow: visible;
+}
+
+.poster {
+    width: 28em;
+    height: 20em;
+    object-fit: scale-down;
+    transition: 0.5s;
+}
+
+.poster:hover {
+    transform: scale(1.1)
+}
+
+.overview {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title {
+    font-weight: bold;
+    margin: 20px;
+}
+
+.genres {
+    padding-top: 5px;
+}
