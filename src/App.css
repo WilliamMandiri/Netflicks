@@ -7,10 +7,3 @@ body::before {
   content: '';
   height: 70px;
 }
-
-.container {
-  display:grid;
-  gap: 25px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-content: center;
-}

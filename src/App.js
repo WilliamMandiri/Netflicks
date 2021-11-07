@@ -1,4 +1,3 @@
-import movies from "./data/movies-with-images.json";
 import Navbar from './Navbar.js';
 import MovieCard from './MovieCard.js';
 import './App.css';
@@ -10,9 +9,7 @@ function App() {
     <div className="background">
       <Navbar />
       <div className="container">
-        {movies.slice(0, 12).map(movie =>
-          <MovieCard movie={movie} />
-        )}
+        <MovieCard />
       </div>
     </div>
   );
